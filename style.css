@@ -1,0 +1,138 @@
+*  body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a;
+        }
+        .aboutmeblock {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        header {
+    background: #333;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+        .hyperlink {
+            margin-right: 20px;
+        }
+        .hyperlinks a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        .hyperlinks a:hover {
+            text-decoration: underline;
+            font-size: 23px;
+            transition: ease-out 0.3s;
+       
+        }
+        .content {
+            width: 80%;
+            margin: 100px auto 20px;
+            text-align: center;
+        }
+
+        .content h2 {
+            font-size:30px;
+            color:#fff;
+        }
+        .outcome-block {
+            padding: 40px;
+            margin-bottom: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px background: rgba(255, 255, 255, 0.4);
+        }
+        .outcome1 {
+            background: rgba(255, 255, 255, 0.4);
+        }
+        .outcome2 {
+            background: rgba(255, 255, 255, 0.4);
+        }
+        .outcome3 {
+            background: rgba(255, 255, 255, 0.4);
+        }
+        .outcome4 {
+            background: rgba(255, 255, 255, 0.4);
+        }
+        .outcome5 {
+            background: rgba(255, 255, 255, 0.4);
+        }
+        .content h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .outcome-block p {
+            font-size: 20px;
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        .skilltxt {
+            text-align:center;
+        }
+
+        .contacttxt {
+            text-align:center;
+        }
+
+           }
+        .section {
+            width: 80%;
+            margin: 100px auto 20px;
+            text-align: center;
+        }
+        .block {
+            padding: 40px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(10px);
+        }
+        .about-block {
+            background: rgba(255, 255, 255, 0.4);
+        }
+        .achievements-block {
+            background: rgba(255, 255, 255, 0.4);
+        }
+        .strengths-block {
+            background: rgba(255, 255, 255, 0.4);
+        }
+        .goals-block {
+            background: rgba(255, 255, 255, 0.4);
+        }
+        .section h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        .section p {
+            font-size: 20px;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: justify;
+        }
+        footer {
+            background: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
