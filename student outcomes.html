@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information Systems - Student Outcomes</title>
+    <link rel="stylesheet" href="style.css" />
+    <script>
+        function showSection(sectionId) {
+            document.querySelectorAll('.section').forEach(section => {
+                section.classList.remove('active');
+            });
+            document.getElementById(sectionId).classList.add('active');
+        }
+    </script>
+</head>
+<body>
+    <header>
+    <div class="header1">
+    <h1>Information Systems</h1>
+    </div>
+    <nav class="hyperlink">
+        <div class="hyperlinks">   
+        <a href="./index.html" title="">Home</a>
+        <a href="./studentoutcomes.html" title="">Student Outcomes</a>
+        <a href="./attributes.html" title="">Attributes</a>
+        </div>
+    </nav>
+    </header>
+    
+  <div class="content">
+        <h2>Student Outcomes</h2>
+        <div class="outcome-block outcome1">
+            <h3>Outcome 1</h3>
+            <p>DESCRIPTION</p>
+        </div>
+        <div class="outcome-block outcome2">
+            <h3>Outcome 2</h3>
+            <p>DESCRIPTION</p>
+        </div>
+        <div class="outcome-block outcome3">
+            <h3>Outcome 3</h3>
+            <p>DESCRIPTION</p>
+        </div>
+        <div class="outcome-block outcome4">
+            <h3>Outcome 4</h3>
+            <p>DESCRIPTION</p>
+        </div>
+        <div class="outcome-block outcome5">
+            <h3>Outcome 5</h3>
+            <p>DESCRIPTION</p>
+        </div>
+    </div>
+    
+</body>
+</html>
