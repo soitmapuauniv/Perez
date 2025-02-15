@@ -1,4 +1,4 @@
-﻿*  body {
+body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
@@ -178,6 +178,25 @@
             backdrop-filter: blur(10px);
             transition:ease-out 1.0s;
         }
+
+        .outcome6:hover {
+            background: rgba(255, 255, 255, 0.4);
+            width: 85%;
+            margin: 120px auto 20px;
+            text-align:center;
+            backdrop-filter: blur(20px);
+            transition:ease-out 1.0s;
+        }
+
+        .outcome6:not(:hover) {
+            background: rgba(255, 255, 255, 0.4);
+            width: 80%;
+            margin: 100px auto 20px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+            transition:ease-out 1.0s;
+        }
+
 
         .content h2 {
             font-size: 36px;
