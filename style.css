@@ -1,8 +1,12 @@
-*  body {
+﻿*  body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             background-color: #1a1a1a;
+             background-image: url("background.png");
+             background-size: cover; 
+             background-repeat: no-repeat;
+             background-position: center center;
         }
         .aboutmeblock {
             width: 80%;
@@ -11,32 +15,44 @@
         }
 
         header {
-    background: #333;
-    color: white;
-    padding: 20px;
-    font-size: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: sticky;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-}
+        background: #333;
+        color: white;
+        padding: 10px;
+        font-size: 19px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 100;
+        }
 
         .hyperlink {
-            margin-right: 20px;
+            text-align: center;
+            padding:20px;
+            
         }
         .hyperlinks a {
             color: white;
             text-decoration: none;
             margin: 0 15px;
-            font-size: 18px;
+            font-size: 25px;
+            padding:20px;
         }
+
+        .hyperlinkbg {
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(10px);
+        }
+
         .hyperlinks a:hover {
-            text-decoration: underline;
             font-size: 23px;
+            background: #1a1a1a;
             transition: ease-out 0.3s;
        
         }
@@ -46,31 +62,123 @@
             text-align: center;
         }
 
-        .content h2 {
+        .contenttitle {
+            font-size: 45px;
+            color: #fff;
+            width: 80%;
+            margin: 100px auto 20px;
+            text-align: center;
+        }
+
+
+        .content h2, .content h3 {
             font-size:30px;
             color:#fff;
+            text-transform: uppercase;
         }
+
+        .content h3 {
+            font-size:25px;
+            color:#1a1a1a;
+            text-transform: uppercase;
+        }
+
         .outcome-block {
             padding: 40px;
             margin-bottom: 40px;
             border-radius: 10px;
             box-shadow: 0 0 15px background: rgba(255, 255, 255, 0.4);
         }
-        .outcome1 {
+        .outcome1:hover {
             background: rgba(255, 255, 255, 0.4);
+            width: 85%;
+            margin: 120px auto 20px;
+            text-align:center;
+            backdrop-filter: blur(20px);
+            transition:ease-out 1.0s;
         }
-        .outcome2 {
+
+        .outcome1:not(:hover) {
             background: rgba(255, 255, 255, 0.4);
+            width: 80%;
+            margin: 100px auto 20px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+            transition:ease-out 1.0s;
         }
-        .outcome3 {
+        .outcome2:hover {
             background: rgba(255, 255, 255, 0.4);
+            width: 85%;
+            margin: 120px auto 20px;
+            text-align:center;
+            backdrop-filter: blur(20px);
+            transition:ease-out 1.0s;
+
         }
-        .outcome4 {
+
+        .outcome2:not(:hover) {
             background: rgba(255, 255, 255, 0.4);
+            width: 80%;
+            margin: 100px auto 20px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+            transition:ease-out 1.0s;
         }
-        .outcome5 {
+
+        .outcome3:hover {
             background: rgba(255, 255, 255, 0.4);
+            width: 85%;
+            margin: 120px auto 20px;
+            text-align:center;
+            backdrop-filter: blur(20px);
+            transition:ease-out 1.0s;
         }
+
+        .outcome3:not(:hover) {
+            background: rgba(255, 255, 255, 0.4);
+            width: 80%;
+            margin: 100px auto 20px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+            transition:ease-out 1.0s;
+        }
+
+        .outcome4:hover {
+            background: rgba(255, 255, 255, 0.4);
+            width: 85%;
+            margin: 120px auto 20px;
+            text-align:center;
+            backdrop-filter: blur(20px);
+            transition:ease-out 1.0s;
+        }
+
+        .outcome4:not(:hover) {
+            background: rgba(255, 255, 255, 0.4);
+            width: 80%;
+            margin: 100px auto 20px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+            transition:ease-out 1.0s;
+        }
+
+        .outcome5:hover {
+            background: rgba(255, 255, 255, 0.4);
+            width: 85%;
+            margin: 120px auto 20px;
+            text-align:center;
+            backdrop-filter: blur(20px);
+            transition:ease-out 1.0s;
+        }
+
+        .outcome5:not(:hover) {
+            background: rgba(255, 255, 255, 0.4);
+            width: 80%;
+            margin: 100px auto 20px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+            transition:ease-out 1.0s;
+        }
+
         .content h2 {
             font-size: 36px;
             margin-bottom: 20px;
@@ -90,21 +198,57 @@
         }
 
            }
+
+
         .section {
-            width: 80%;
-            margin: 100px auto 20px;
+            display: flex;
+            width: 60%;
+            margin: 50px auto 20px;
             text-align: center;
+            align-items: center;
         }
-        .block {
+        .block:not(:hover) {
             padding: 40px;
-            margin-bottom: 20px;
+            margin-bottom: 40px;
+            margin-top: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
             border-radius: 10px;
             box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
             backdrop-filter: blur(10px);
+            transition: ease-out 1.0s;
         }
+
+        .block:hover {
+            padding: 45px;
+            margin-bottom: 50px;
+            margin-top: 20px;
+            margin-left: 30px;
+            margin-right: 30px;
+            border-radius: 20px;
+            font-size: 30px;
+            box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(20px);
+            transition: ease-out 1.0s;
+        }
+
         .about-block {
             background: rgba(255, 255, 255, 0.4);
         }
+
+        .about-block h2, .about-block p {
+            text-align: left;
+        }
+
+        .about-block a {
+            text-align: left;
+        }
+
+        .profile {
+            display:flex;
+            position: absolute;
+        }
+
         .achievements-block {
             background: rgba(255, 255, 255, 0.4);
         }
@@ -125,7 +269,13 @@
             line-height: 1.6;
             max-width: 800px;
             margin: 0 auto;
-            text-align: justify;
+        }
+
+        .section a {
+            font-size: 20px;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
         }
         footer {
             background: #333;
